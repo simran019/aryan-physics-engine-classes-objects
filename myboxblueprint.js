@@ -1,0 +1,19 @@
+class Box
+{
+    constructor(x,y,w,h)
+    {
+        //x=100,y=100,w=50,h=60
+        //box1.x=100
+        //box1.y=100
+        //box1.w=50
+        //box1.h=60
+        this.x=x;
+        this.y=y;
+        this.w=w;
+        this.h=h;
+    }
+    show()
+    {
+        rect(this.x,this.y,this.w,this.h);
+    }
+}
